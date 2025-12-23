@@ -22,7 +22,7 @@ const Auth: FC<{ redirect: string }> = ({ redirect }) => {
       <div className="text-lg font-bold text-gray-900 dark:text-gray-100">{'Informe a senha'}</div>
 
       <p className="text-sm font-medium text-gray-500">
-        {'Esta pasta é protegida.' +
+        {'Esta pasta é protegida. ' +
           'Se você souber a senha, digite-a abaixo.'}
       </p>
 
