@@ -211,7 +211,7 @@ export default function SearchModal({
                   type="text"
                   id="search-box"
                   className="w-full bg-transparent focus:outline-none focus-visible:outline-none"
-                  placeholder={'Search ...'}
+                  placeholder={'Pesquisar...'}
                   value={query}
                   onChange={e => setQuery(e.target.value)}
                 />
@@ -233,7 +233,7 @@ export default function SearchModal({
                 {results.result && (
                   <>
                     {results.result.length === 0 ? (
-                      <div className="px-4 py-12 text-center text-sm font-medium">{'Nothing here.'}</div>
+                      <div className="px-4 py-12 text-center text-sm font-medium">{'Nada por aqui.'}</div>
                     ) : (
                       results.result.map(result => <SearchResultItem key={result.id} result={result} />)
                     )}
